@@ -1,0 +1,85 @@
+* {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.square {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 25%;
+    background-color: hsl(216, 50%, 16%);
+    align-items: center;
+}
+
+.square>img {
+    height: 300px;
+    width: 300px;
+}
+
+.text {
+    display: flex;
+    height: 10%;
+    width: 25%;
+}
+
+.text {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 0 100px 0px 100px;
+    align-items: center;
+}
+
+.div {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div>img {
+    height: 50px;
+    width: 50px;
+}
+
+.text>div {
+    display: flex;
+    flex-direction: row;
+}
+
+.square>div {}
+
+.square>.div>img {
+    padding-left: 6%;
+    height: 30px;
+    width: 30px;
+}
+
+.square>.div>p {
+    padding-right: 6%;
+}
+
+.text>div>img {
+    align-items: center;
+    height: 20px;
+    width: 20px;
+}
+
+#p {
+    color: rebeccapurple;
+}
